@@ -24,8 +24,8 @@
         <div class="container-meta">
             <form action="" class="tci-divs">
                 <div class="tci-container">
-                    <div class="tci" title="the name of the aircraft"><input type="text" placeholder="Aircraft Name" required></div>
-                    <div class="tci"><input type="text" placeholder="Aircraft number" required></div>
+                    <div class="tci" title="the name of the aircraft"><input id="Afname" type="text" placeholder="Aircraft Name" required></div>
+                    <div class="tci"><input id="Afnumber" type="text" placeholder="Aircraft number" required></div>
                     <div class="tci"><select id="country"  name="country">
                             <option>Country of origin</option>
                             <option value="AF">Afghanistan</option>
@@ -281,9 +281,9 @@
                             <option value="ZM">Zambia</option>
                             <option value="ZW">Zimbabwe</option>
                         </select></div>
-                    <div class="tci"><input type="text" placeholder="current unit" required></div>
-                    <div class="tci"><input type="text" placeholder="No. of Crew" required></div>
-                    <div class="tci"><select name="type" id="">
+                    <div class="tci"><input id="Cunit" type="text" placeholder="current unit" required></div>
+                    <div class="tci"><input id="NOcrew" type="text" placeholder="No. of Crew" required></div>
+                    <div class="tci"><select name="type" id="TOaircraft">
                         <option>Type Of Aircraft</option>
                         <option value="Fighter Jet">Fighter jet</option>
                         <option value="Attack Jet">Attack Jet</option>
@@ -297,8 +297,8 @@
                         <option value="Carrier Aircraft"> Executive Helicopter</option>
                         <option value="Trainer Aircraft"> Trainer Helicopter</option>
                     </select> </div>
-                    <div class="tci"><input type="text" placeholder="Aircraft call-sign" required></div>
-                    <div class="tci"><input type="text" placeholder="chief technicians" required></div>
+                    <div class="tci"><input id="Acallsign" type="text" placeholder="Aircraft call-sign" required></div>
+                    <div class="tci"><input id="chieftech" type="text" placeholder="chief technicians" required></div>
                 </div>
             </form>
             <form action="" class="tci-middle">
@@ -310,11 +310,11 @@
                     <div class="mid-tci">
                         <label for="unserviceable" class="radio-btn">unserviceable</label>
                         
-                        <input type="radio" name="serviceable" value="unserviceable"required>
+                        <input id="dates1" type="radio" name="serviceable" value="unserviceable"required>
                     </div>
                     <div class="mid-tci">
                         <label for="unserviceable" class="radio-btn">intial flight hours</label>
-                        <input type="number"   min=1 max=15 placeholder=1 required>
+                        <input id="flighthours" type="number"   min=1 max=15 placeholder=1 required>
                         
                     </div>
                     <div class="mid-tci">
@@ -333,24 +333,25 @@
                         <input id="date" type="date"  required>
                     </div>
                     <div title="fuel capacity in litres" class="down-tci">
-                        <input type="text" placeholder="Tank capacity" required>
+                        <input id="Tcapacity" type="text" placeholder="Tank capacity" required>
                     </div>
                     <div title="number of time changing" class="down-tci">
-                        <input type="text" placeholder="No. of tci" required>
+                        <input id="TCIno" type="text" placeholder="No. of tci" required>
                     </div>
                     <div class="down-tci">
                         <label for="date" class="radio-btn">Date procured</label>
-                        <input id="date" type="date"  required>
+                        <input id="dateProcured" type="date"  required>
                     </div>
+                    <div class="down-tci">
+                        <button  type="submit"id="submit-btn" class=".submit-btn" value="">Add TCI</button>
+                    </div>  
+                    
                        
                             
                 </div>
                
                     
             </form>
-            <div class="div-submit">
-                <button type="submit" class=".submit-btn" value="">Add TCI</button>
-            </div>  
             
         </div>
             
