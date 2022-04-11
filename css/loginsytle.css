@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -77,7 +77,7 @@ nav ul li a:hover{
 
 body{
     overflow: hidden;
-    font-family: 'lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
