@@ -307,6 +307,7 @@ footer .wave#wave4{
     justify-content: space-evenly;
 }
 .mid-tci{
+    justify-content: center;
     padding-left: 25px;
 }
 .mid-tci input[type="number"]{
@@ -328,9 +329,10 @@ footer .wave#wave4{
     justify-content:space-between;
     
     flex-direction: row;
-    flex-wrap: nowrap; 
    
-   
+    flex-wrap: wrap; 
+    
+    
 }
 .down-tci label{
     padding: 0;
@@ -408,7 +410,10 @@ footer .wave#wave4{
     border: 0;
     border-bottom: 2px solid brown;
 }
-
+.btn-tci{
+    padding-top: 25px;
+    width: 200px;
+}
 
 /* resposiveness of the website */
 /* @media (max-width: 800px) {
