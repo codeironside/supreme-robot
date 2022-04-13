@@ -3,6 +3,7 @@ document.getElementById("submit-btn").addEventListener('click',(e) =>{
     e.preventDefault();
 
     const AFname = document.getElementById("Afname").value
+    console.log(AFname)
     const aircraftNumber = document.getElementById("Afnumber").value
     const country = document.getElementById("country").value
     const cUnit = document.getElementById("Cunit").value
