@@ -133,12 +133,54 @@ form .user-details .input-box{
 .user-details .input-box input{
     background: transparent;
     height: 45px;
+    width: 80%;
+    outline: none;
+    color: rgb(245, 236, 220);
+    border: 0;
+    font-weight: 650;
+    border-radius: 5px;
+    border-bottom:  2px solid rgb(143, 140, 140);
+    padding-left: 100px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition:all 2s ease ;
+}
+.user-details .input-box input[type='file']{
+    background: transparent;
+    height: 45px;
     width: 100%;
     outline: none;
     border: 0;
     border-radius: 5px;
-    border-bottom:  2px solid rgb(143, 140, 140);
     padding-left: 100px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition:all 2s ease ;
+}
+.user-details .input-box input[type='number']{
+    background: transparent;
+    height: 45px;
+    width: 75px;
+    outline: none;
+    font-weight: 650;
+    color: rgb(245, 236, 220);
+    
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition:all 2s ease ;
+}
+.user-details .input-box input[type='date']{
+    background: transparent;
+    height: 45px;
+    width: 150px;
+    outline: none;
+    font-weight: 650;
+    color: rgb(245, 236, 220);
+    
+    border-radius: 5px;
+    padding-left: 10px;
     font-size: 16px;
     border-bottom-width: 2px;
     transition:all 2s ease ;
@@ -146,17 +188,21 @@ form .user-details .input-box{
 .user-details .input-box select{
     background: transparent;
     height: 45px;
-    width: 100%;
+    width: 70%;
+    font-weight: 650;
     outline: none;
     border: 0;
+    color: rgb(245, 236, 220);
     border-radius: 5px;
     border-bottom:  2px solid rgb(143, 140, 140);
     padding-left: 100px;
+    
     font-size: 16px;
     border-bottom-width: 2px;
     transition:all 2s ease ;
 
 }
+
 
 .user-details .input-box input::placeholder{
     color: rgb(245, 236, 220);
@@ -166,8 +212,10 @@ form .user-details .input-box{
  border-color: #9b59b6;
 }
 form .gender-details .gender-title{
-    font-size: 15px;
-    font-weight: bold;
+    color: rgb(245, 236, 220);
+    font-weight: 800;
+    font-size: 30px;
+    /* font-weight: bold; */
 
 }
 form .gender-details .category{
