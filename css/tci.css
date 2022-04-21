@@ -150,12 +150,16 @@ form .user-details .input-box{
     height: 45px;
     width: 100%;
     outline: none;
+    padding-top: 20px;
     border: 0;
     border-radius: 5px;
-    padding-left: 100px;
+    padding-left: 10px;
     font-size: 16px;
     border-bottom-width: 2px;
     transition:all 2s ease ;
+}
+#filePicture{
+   
 }
 .user-details .input-box input[type='number']{
     background: transparent;
