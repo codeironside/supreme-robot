@@ -3,10 +3,10 @@ document.getElementById("submit-btn").addEventListener('click',(e) =>{
     e.preventDefault();
 
     const AFname = document.getElementById("Afname").value
-    console.log(AFname)
     const aircraftNumber = document.getElementById("Afnumber").value
     const country = document.getElementById("country").value
     const cUnit = document.getElementById("Cunit").value
+    const callsign = document.getElementById("CallSign").value
     const NOcrew = document.getElementById("NOcrew").value
     const TOaircraft = document.getElementById("TOaircraft").value
     const Acallsign = document.getElementById("Acallsign").value
@@ -22,7 +22,7 @@ document.getElementById("submit-btn").addEventListener('click',(e) =>{
     const radioButtons = document.getElementsByName("serviceable")
     // querySelectorAll('.btn-radio')
     // querySelectorAll('input[name="servicabe"]');
-    let Newname = document.getElementById("airName").textContent= AFname
+    // let Newname = 
     console.log(AFname)
     for(let i = 0; i < radioButtons.length; i++){
         
@@ -41,7 +41,15 @@ document.getElementById("submit-btn").addEventListener('click',(e) =>{
         }
         
     }
+    
    
  
- })
+})
+function aircarftDetails(){
+    var aircraftName = AFname
+} 
+exports={
+    aircarftDetails
+}
+
  
