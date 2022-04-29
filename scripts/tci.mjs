@@ -1,4 +1,5 @@
 // function buttonclick()
+
 document.getElementById("submit-btn").addEventListener('click',(e) =>{
     e.preventDefault();
 
@@ -47,8 +48,9 @@ document.getElementById("submit-btn").addEventListener('click',(e) =>{
 })
 function aircarftDetails(){
     var aircraftName = AFname
+    return "money"
 } 
-exports={
+export{
     aircarftDetails
 }
 
