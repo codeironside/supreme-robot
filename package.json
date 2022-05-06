@@ -4,18 +4,19 @@
   "description": "��#\u0000 \u0000n\u0000i\u0000g\u0000e\u0000r\u0000i\u0000a\u0000n\u0000_\u0000a\u0000i\u0000r\u0000f\u0000o\u0000r\u0000c\u0000e\u0000_\u0000t\u0000i\u0000m\u0000e\u0000_\u0000c\u0000h\u0000a\u0000n\u0000g\u0000i\u0000n\u0000g\u0000_\u0000i\u0000t\u0000e\u0000m\u0000s\u0000\r\u0000 \u0000",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.27.2",
     "asynckit": "^0.4.0",
-    "delayed-stream": "^1.0.0",
+    "axios": "^0.27.2",
     "combined-stream": "^1.0.8",
+    "delayed-stream": "^1.0.0",
     "follow-redirects": "^1.14.9",
-    "mime-types": "^2.1.35",
+    "form-data": "^4.0.0",
     "mime-db": "^1.52.0",
-    "form-data": "^4.0.0"
+    "mime-types": "^2.1.35",
+    "nodemon": "^2.0.16"
   },
-  "devDependencies": {},
   "scripts": {
-    "start":"node scripts/newUpdate.js",
+    "start": "nodemon index.js",
+    "devi": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
