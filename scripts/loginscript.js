@@ -25,11 +25,11 @@ document.getElementById("submit_btn").addEventListener('click', (e) =>{
     }
     else{
         const userChoice=confirm(`${firstName} is not found,would you like to register`)
-        // if (userChoice === true){
-        //     window.location.href="http://127.0.0.1:5500/html/register.html"
-        // }
-        // else{
-        //     window.location.href="http://127.0.0.1:5500/html/index.html"
-        // }
+        if (userChoice === true){
+            window.location.href="http://127.0.0.1:5500/html/register.html"
+        }
+        else{
+            window.location.href="http://127.0.0.1:5500/html/index.html"
+        }
     }
 })
