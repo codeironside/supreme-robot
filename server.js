@@ -37,8 +37,6 @@ app.set('view engine','ejs')
 app.get("/html/index.html",(req,res)=>{
 
     res.render('index')
-    res.render('loginstyle.css')
-    res.render('loginscript.js')
 })
 
 
